@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ArtAssets_Mat_StyliZeGalaxy
+  m_Shader: {fileID: 4800000, guid: 2d2843d11796f424ba51599785b83b2d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AreaMaskNoiseMap:
+        m_Texture: {fileID: 2800000, guid: 9a750db8f051d6445a1e03d70dceebcd, type: 3}
+        m_Scale: {x: 3.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AreaMaskNoiseMap2:
+        m_Texture: {fileID: 2800000, guid: 9a750db8f051d6445a1e03d70dceebcd, type: 3}
+        m_Scale: {x: 4.35, y: 1.1}
+        m_Offset: {x: 0, y: 0}
+    - _BsideNoiseMap:
+        m_Texture: {fileID: 2800000, guid: fd899aa3086573c438deec12e7896928, type: 3}
+        m_Scale: {x: 1, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CenterAreaMaskMap:
+        m_Texture: {fileID: 2800000, guid: 1879b087e2cf78448b9a7fd35bf49c05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a2283f07c208f10448d11bb7c3c1c34e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyRampMap:
+        m_Texture: {fileID: 2800000, guid: 5c47b57a324dcbb45a56f56c591ec555, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarColLut:
+        m_Texture: {fileID: 2800000, guid: ed6af72d14b40294ca65ecc37eda77c1, type: 3}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap:
+        m_Texture: {fileID: 2800000, guid: bf182b770ffdd624bb05385f54cfbbda, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+    - _StarNoiseMap:
+        m_Texture: {fileID: 2800000, guid: ce09458aad14fab4aafda2ec78c54b85, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _StarSkyMap:
+        m_Texture: {fileID: 2800000, guid: d98c9aa964713aa42bc9d274332e22e3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AreaMaskNoiseSpeed: 0.005
+    - _AroundSunHaloSize: 0.31277
+    - _BsideColorIntensity: 10.82
+    - _BsideNoiseIntensity: 0.38
+    - _BsideNoiseSpeed: -0.005
+    - _BumpScale: 1
+    - _CenterColorIntensity: 18
+    - _CenterNoiseAreaScale: 1.6
+    - _CenterNoiseIntensity: 0.23
+    - _CenterNoiseReverseIntersity: -0.05
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GalaxyAlpha: 0.802
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IrradianceMapG_maxAngleRange: 0.69804
+    - _Metallic: 0
+    - _MiddleSkyArea: 0.44837
+    - _MixColorIntensity: 5
+    - _Mode: 0
+    - _MoonBrightness: 0.46
+    - _MoonBrightnessMax: 0.68
+    - _MoonColorIntensity: 2.03
+    - _MoonSize: 1
+    - _NoiseSpeed: 0.293
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarColorIntensity: 227
+    - _StarIntensity: 3.5
+    - _SunAdditionIntensity: 1.48499
+    - _SunHalo: 0.31277
+    - _SunHaloIntensity: 1.18529
+    - _SunHaloSize: 1000
+    - _SunsetMorningGlowArea: 0.69804
+    - _SunsetMorningGlowIntensity: 1.48499
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _starNumberIntensity: 0.38
+    - middleSkyArea: 0.44837
+    - sunHalo: 0.31277
+    m_Colors:
+    - _BesideColor: {r: 0, g: 0.74265, b: 0.03585, a: 1}
+    - _CenterColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MiddleAroundSunColor: {r: 0.30759, g: 0.346, b: 0.24592, a: 1}
+    - _MiddleSkyColor: {r: 0.04305, g: 0.26222, b: 0.46968, a: 1}
+    - _MiddleSunColor: {r: 0.30759, g: 0.346, b: 0.24592, a: 1}
+    - _MiddleSunHaloColor: {r: 0.30759, g: 0.346, b: 0.24592, a: 1}
+    - _MixColor: {r: 0.14706, g: 0.4, b: 1, a: 1}
+    - _MoonColor: {r: 0.2588235, g: 0.48467514, b: 0.7176471, a: 1}
+    - _SunAdditionColor: {r: 0.90409, g: 0.7345, b: 0.13709, a: 1}
+    - _SunHaloColor: {r: 0.90625, g: 0.43019, b: 0.11743, a: 1}
+    - _SunsetMorningGlowColor: {r: 0.90409, g: 0.7345, b: 0.13709, a: 1}
+    - _TopAroundSunColor: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
+    - _TopSkyColor: {r: 0.02948, g: 0.1609, b: 0.27936, a: 1}
+    - _TopSunColor: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
+    - _TopSunHaloColor: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
+    - middleSkyColor: {r: 0.04305, g: 0.26222, b: 0.46968, a: 1}
+    - middleSunColor: {r: 0.30759, g: 0.346, b: 0.24592, a: 1}
+    - topSkyColor: {r: 0.02948, g: 0.1609, b: 0.27936, a: 1}
+    - topSunColor: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
