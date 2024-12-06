@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68808749ed17a541a7dc407735553d6, type: 3}
+  m_Name: ZwbRanderPipelineAsset
+  m_EditorClassIdentifier: 
+  settings:
+    cameraBuffer:
+      allowHDR: 1
+      copyColor: 1
+      copyColorReflection: 0
+      copyDepth: 1
+      copyDepthReflection: 0
+      renderScale: 1
+      bicubicRescaling: 1
+      fxaa:
+        enabled: 1
+        fixedThreshold: 0.0312
+        relativeThreshold: 0.063
+        subpixelBlending: 0.75
+        quality: 2
+    useSRPBatcher: 1
+    forwardPlus:
+      tileSize: 0
+      maxLightsPerTile: 0
+    shadows:
+      filterQuality: 1
+      maxDistance: 30
+      distanceFade: 0.184
+      directional:
+        atlasSize: 2048
+        cascadeCount: 4
+        cascadeRatio1: 0.3
+        cascadeRatio2: 0.4
+        cascadeRatio3: 0.5
+        cascadeFade: 0.1
+        softCascadeBlend: 0
+        cascadeBlend: 1
+        filter: 2
+      other:
+        atlasSize: 1024
+        filter: 2
+    postFXSettings: {fileID: 11400000, guid: 5e3b707441afc4b48865d4b6a397ce69, type: 2}
+    colorLUTResolution: 32
+    cameraRendererShader: {fileID: 4800000, guid: f8950b5b25fc47c897f63b803ef14731, type: 3}
+    cameraDebuggerShader: {fileID: 4800000, guid: a154fc8b01af4da5a13a0cb4a2ae5d22, type: 3}
