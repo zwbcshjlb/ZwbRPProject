@@ -15,9 +15,9 @@ MonoBehaviour:
   settings:
     cameraBuffer:
       allowHDR: 1
-      copyColor: 1
-      copyColorReflection: 0
-      copyDepth: 1
+      copyColor: 0
+      copyColorReflection: 1
+      copyDepth: 0
       copyDepthReflection: 0
       renderScale: 1
       bicubicRescaling: 1
@@ -32,23 +32,40 @@ MonoBehaviour:
       tileSize: 0
       maxLightsPerTile: 0
     shadows:
-      filterQuality: 1
-      maxDistance: 30
-      distanceFade: 0.184
+      filterQuality: 2
+      maxDistance: 3000
+      distanceFade: 0.001
       directional:
-        atlasSize: 2048
-        cascadeCount: 4
-        cascadeRatio1: 0.3
-        cascadeRatio2: 0.4
-        cascadeRatio3: 0.5
-        cascadeFade: 0.1
-        softCascadeBlend: 0
-        cascadeBlend: 1
-        filter: 2
+        atlasSize: 4096
+        cascadeCount: 8
+        cascadeRatio1: 0.001
+        cascadeRatio2: 0.002
+        cascadeRatio3: 0.01
+        cascadeRatio4: 0.02
+        cascadeRatio5: 0.133
+        cascadeRatio6: 0.391
+        cascadeRatio7: 0.736
+        cascadeFade: 0.001
+        softCascadeBlend: 1
+        penumbraFade: 0.46
+        searchWhidth: 0.3
+        lightSize: 0.047
+        avergeDepthOffset: 0.21
+        test3: 0.1
+        percentageCloserSoftShadow:
+          findBlockerSampleCount: 24
+          dirLightAngularDiameter: 1.5
+          dirLightPcssBlockerSearchAngularDiameter: 12
+          dirLightPcssMinFilterMaxAngularDiameter: 10
+          dirLightPcssMaxPenumbraSize: 0.56
+          dirLightPcssMaxSamplingDistance: 0.5
+          dirLightPcssMinFilterSizeTexels: 1.5
+          dirLightPcssBlockerSamplingClumpExponent: 2
       other:
         atlasSize: 1024
-        filter: 2
-    postFXSettings: {fileID: 11400000, guid: 5e3b707441afc4b48865d4b6a397ce69, type: 2}
+    postFXSettings: {fileID: 0}
     colorLUTResolution: 32
     cameraRendererShader: {fileID: 4800000, guid: f8950b5b25fc47c897f63b803ef14731, type: 3}
     cameraDebuggerShader: {fileID: 4800000, guid: a154fc8b01af4da5a13a0cb4a2ae5d22, type: 3}
+    sSShadowShader: {fileID: 4800000, guid: 3178f734fd507944dbce7b87c0e09382, type: 3}
+    PCSSShader: {fileID: 4800000, guid: e6fef9a49b4a4426bab3844e53ce73e4, type: 3}

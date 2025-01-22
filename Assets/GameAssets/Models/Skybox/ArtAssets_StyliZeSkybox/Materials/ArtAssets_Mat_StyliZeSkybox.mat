@@ -81,7 +81,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AroundSunHaloSize: 0.31277
+    - _AroundSunHaloSize: 0.395
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -91,43 +91,45 @@ Material:
     - _GlossyReflections: 1
     - _IrradianceMapG_maxAngleRange: 0.69804
     - _Metallic: 0
-    - _MiddleSkyArea: 0.44837
+    - _MiddleSkyArea: 0.04
     - _Mode: 0
-    - _MoonBrightness: 0.46
-    - _MoonBrightnessMax: 0.68
-    - _MoonColorIntensity: 2.03
-    - _MoonSize: 1
-    - _NoiseSpeed: 0.293
+    - _MoonBrightness: 0.291
+    - _MoonBrightnessMax: 0.583
+    - _MoonColorIntensity: 1.63
+    - _MoonSize: 10
+    - _NoiseSpeed: 0.026
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StarIntensity: 0.8
+    - _StarIntensity: 0.02
     - _SunAdditionIntensity: 1.48499
     - _SunHalo: 0.31277
     - _SunHaloIntensity: 0.2
     - _SunHaloSize: 773
-    - _SunsetMorningGlowArea: 0.69804
-    - _SunsetMorningGlowIntensity: 1.48499
+    - _SunsetMorningGlowArea: 0.719
+    - _SunsetMorningGlowIntensity: 1.28
     - _UVSec: 0
     - _ZWrite: 1
-    - _starNumberIntensity: 0.38
+    - _starNumberIntensity: 0.205
     - middleSkyArea: 0.44837
     - sunHalo: 0.31277
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MiddleAroundSunColor: {r: 0.053079404, g: 0.05660379, b: 0.047792822, a: 1}
-    - _MiddleSkyColor: {r: 0.0240299, g: 0.1861693, b: 0.33962262, a: 1}
+    - _MiddleAroundSunColor: {r: 0.10980392, g: 0.14901961, b: 0.2627451, a: 1}
+    - _MiddleSkyColor: {r: 0.10980392, g: 0.14901961, b: 0.2627451, a: 1}
     - _MiddleSunColor: {r: 0.30759, g: 0.346, b: 0.24592, a: 1}
     - _MiddleSunHaloColor: {r: 0.30759, g: 0.346, b: 0.24592, a: 1}
-    - _MoonColor: {r: 0.2588235, g: 0.48467514, b: 0.7176471, a: 1}
+    - _MoonColor: {r: 0, g: 0.7921572, b: 1, a: 1}
+    - _MoonDirection: {r: 0, g: 0.5, b: 0.87, a: 0}
     - _SunAdditionColor: {r: 0.90409, g: 0.7345, b: 0.13709, a: 1}
+    - _SunDirection: {r: 0, g: -1, b: 0, a: 0}
     - _SunHaloColor: {r: 0.90625, g: 0.43019, b: 0.11743, a: 1}
-    - _SunsetMorningGlowColor: {r: 0.02300641, g: 0.20508213, b: 0.4433962, a: 1}
-    - _TopAroundSunColor: {r: 0.044811323, g: 0.08147513, b: 0.1792453, a: 1}
-    - _TopSkyColor: {r: 0, g: 0.044474397, b: 0.084905684, a: 1}
+    - _SunsetMorningGlowColor: {r: 0.003203986, g: 0.03452, b: 0.0754717, a: 1}
+    - _TopAroundSunColor: {r: 0.10980392, g: 0.14901961, b: 0.2627451, a: 1}
+    - _TopSkyColor: {r: 0.10980392, g: 0.14901961, b: 0.2627451, a: 1}
     - _TopSunColor: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
     - _TopSunHaloColor: {r: 0.00326, g: 0.18243, b: 0.63132, a: 1}
     - middleSkyColor: {r: 0.04305, g: 0.26222, b: 0.46968, a: 1}
